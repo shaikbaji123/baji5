@@ -1,0 +1,14 @@
+clean
+ls
+git status
+touch baji
+git add baji
+git commit -m "aj added"
+git log
+git show cid
+git reset head baji
+git reset --soft cid --condition (n-1)
+git reset --mixed cid --condition (n-1)
+git reset --hard cid ---condition (n-1)
+git push
+
